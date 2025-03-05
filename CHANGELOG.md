@@ -9,3 +9,4 @@
 - 2025-02-12T13:30:00: Added context queue truncation to 10 items
 - 2025-02-19T11:45:00: Added null checks for conversation list
 - 2025-02-26T15:10:00: Titles now truncate at 30 characters
+- 2025-03-05T10:05:00: Created ModelController to fetch from /api/tags
