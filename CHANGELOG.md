@@ -10,3 +10,4 @@
 - 2025-02-19T11:45:00: Added null checks for conversation list
 - 2025-02-26T15:10:00: Titles now truncate at 30 characters
 - 2025-03-05T10:05:00: Created ModelController to fetch from /api/tags
+- 2025-03-14T14:20:00: Hardcoded fallbacks qwen3 and deepcoder if Ollama is down
