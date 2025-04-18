@@ -14,3 +14,4 @@
 - 2025-03-21T09:50:00: Removed unused imports in ModelController
 - 2025-04-02T11:30:00: Added HelloController basic endpoints
 - 2025-04-10T16:15:00: Switched to Flux for response streaming
+- 2025-04-18T10:40:00: Adjusted CORS mapping
