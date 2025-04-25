@@ -15,3 +15,4 @@
 - 2025-04-02T11:30:00: Added HelloController basic endpoints
 - 2025-04-10T16:15:00: Switched to Flux for response streaming
 - 2025-04-18T10:40:00: Adjusted CORS mapping
+- 2025-04-25T14:00:00: Added SYSTEM_PROMPT to handle <think> blocks
