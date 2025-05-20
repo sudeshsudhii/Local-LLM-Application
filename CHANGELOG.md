@@ -18,3 +18,4 @@
 - 2025-04-25T14:00:00: Added SYSTEM_PROMPT to handle <think> blocks
 - 2025-05-04T09:10:00: Added WebConfig for global CORS
 - 2025-05-12T13:25:00: Added ModelServiceTest
+- 2025-05-20T11:15:00: Added test cases for queue truncation
