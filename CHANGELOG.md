@@ -20,3 +20,4 @@
 - 2025-05-12T13:25:00: Added ModelServiceTest
 - 2025-05-20T11:15:00: Added test cases for queue truncation
 - 2025-05-28T15:30:00: Fixed mock repository injection
+- 2025-06-03T10:00:00: Added multi-stage Dockerfile
