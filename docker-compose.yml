@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  spring-app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/deepseek
+      - OLLAMA_URL=http://ollama:11434
+      - APP_CORS_ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8080
+    depends_on:
+      - mongodb
+      - ollama
+    networks:
+      - llm-network
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - llm-network
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - llm-network
+    restart: unless-stopped
+    # Optional: Deploy models on startup using a command. 
+    # Requires manual 'docker exec -it <container> ollama run qwen3:1.7b' to pull model initially.
+
+volumes:
+  mongodb_data:
+  ollama_data:
+
+networks:
+  llm-network:
+    driver: bridge

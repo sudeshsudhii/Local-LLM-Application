@@ -21,3 +21,4 @@
 - 2025-05-20T11:15:00: Added test cases for queue truncation
 - 2025-05-28T15:30:00: Fixed mock repository injection
 - 2025-06-03T10:00:00: Added multi-stage Dockerfile
+- 2025-06-11T14:45:00: Added docker-compose.yml
