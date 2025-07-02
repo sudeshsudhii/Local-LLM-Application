@@ -24,3 +24,4 @@
 - 2025-06-11T14:45:00: Added docker-compose.yml
 - 2025-06-18T09:20:00: Linked containers via llm-network
 - 2025-06-25T16:05:00: Moved hardcoded URLs to properties
+- 2025-07-02T11:10:00: Added Swagger annotations to controllers
