@@ -26,3 +26,4 @@
 - 2025-06-25T16:05:00: Moved hardcoded URLs to properties
 - 2025-07-02T11:10:00: Added Swagger annotations to controllers
 - 2025-07-09T13:40:00: Added CONTRIBUTING.md and Issue Templates
+- 2025-07-16T10:15:00: Overhauled README with Mermaid diagrams
