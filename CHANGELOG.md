@@ -27,3 +27,4 @@
 - 2025-07-02T11:10:00: Added Swagger annotations to controllers
 - 2025-07-09T13:40:00: Added CONTRIBUTING.md and Issue Templates
 - 2025-07-16T10:15:00: Overhauled README with Mermaid diagrams
+- 2025-07-23T15:50:00: Removed PrimaryMongoConfig dead code
